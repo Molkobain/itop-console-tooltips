@@ -1,0 +1,9 @@
+.mct-decoration{
+    display: inline-block !important;
+    padding: 2px 0px 0px 2px !important;
+    vertical-align: top !important;
+    font-family: Font Awesome\ 5 Free !important;
+    font-size: 7px !important;
+    color: #7d8281 !important;
+    cursor: pointer;
+}
