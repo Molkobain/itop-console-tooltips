@@ -7,6 +7,9 @@ Works with all objects (standard / from extensions / custom made), but only attr
 
 *Note: By default iTop has not much descriptions, if you want to add some, you have to add dictionary entries.*
 
+![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-object-01.PNG)
+![Description tooltip](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-object-02.PNG)
+
 ### Compatibility
 Compatible with iTop 2.3+
 
@@ -14,6 +17,10 @@ Compatible with iTop 2.3+
 * Unzip the extension
 * Copy the ``dist/molkobain-console-tooltip`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
 * Run iTop setup & select extension *Console: Tooltips on object's properties*
+
+*Your folders should look like this*
+
+![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-install.PNG)
 
 ### Configuration
 #### Parameters
