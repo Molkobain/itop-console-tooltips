@@ -28,7 +28,7 @@ Compatible with iTop 2.3+
   * enabled: Enable or disable extension. Possible values are true|false, default is true.
 
 ### Licensing
-TODO
+This extension is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 ### Third party libs
 This extension embeds the Font Awesome 5.0.6 library. For more information visit its [website](https://fontawesome.com).
