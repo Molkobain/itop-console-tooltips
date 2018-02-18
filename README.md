@@ -24,6 +24,7 @@ Compatible with iTop 2.3+
 
 ### Configuration
 #### Parameters
+The extension has to configuration parameters:
   * decoration_class: Change tooltip icon by setting any *Font Awesome 5* icon classes (see [here](https://fontawesome.com/icons?d=gallery&m=free)  for examples). Default is ``fas fa-question``.
   * enabled: Enable or disable extension. Possible values are true|false, default is true.
 
