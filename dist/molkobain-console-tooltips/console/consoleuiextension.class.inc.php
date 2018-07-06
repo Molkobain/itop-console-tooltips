@@ -1,4 +1,13 @@
 <?php
+/**
+ * Copyright (c) 2015 - 2018 Molkobain.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
 
 namespace Molkobain\iTop\Console\Tooltips\Extension;
 
@@ -8,6 +17,11 @@ use DBObjectSet;
 use WebPage;
 use iApplicationUIExtension;
 
+/**
+ * Class ConsoleUIExtension
+ *
+ * @package Molkobain\iTop\Console\Tooltips\Extension
+ */
 class ConsoleUIExtension implements iApplicationUIExtension
 {
     const DEFAULT_ENABLED = true;
@@ -21,7 +35,7 @@ class ConsoleUIExtension implements iApplicationUIExtension
         // Check if enabled
         if(MetaModel::GetConfig()->GetModuleSetting('molkobain-console-tooltips', 'enabled', static::DEFAULT_ENABLED) === false)
         {
-            return false;
+            return void;
         }
 
         // Get decoration class
@@ -51,8 +65,9 @@ class ConsoleUIExtension implements iApplicationUIExtension
         oDecorationElem.appendTo($(this));
     });
 EOF
-
         );
+
+        return void;
     }
 
     /**
