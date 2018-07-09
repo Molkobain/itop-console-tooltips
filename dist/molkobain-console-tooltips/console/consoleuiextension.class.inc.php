@@ -35,7 +35,7 @@ class ConsoleUIExtension implements iApplicationUIExtension
         // Check if enabled
         if(MetaModel::GetConfig()->GetModuleSetting('molkobain-console-tooltips', 'enabled', static::DEFAULT_ENABLED) === false)
         {
-            return void;
+            return;
         }
 
         // Get decoration class
@@ -67,7 +67,7 @@ class ConsoleUIExtension implements iApplicationUIExtension
 EOF
         );
 
-        return void;
+        return;
     }
 
     /**
