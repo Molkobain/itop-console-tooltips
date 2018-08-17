@@ -1,3 +1,5 @@
+👋 [Available on iTop Hub!](https://store.itophub.io/en_US/products/molkobain-console-tooltips)
+
 # iTop extension: molkobain-console-tooltips
 
 ### Description
