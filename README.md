@@ -6,6 +6,7 @@
 Display a tooltip on object's attributes (console only). A ? is added next to the attribute's label to indicate that a description is available for an attribute.
 
 Works with all objects (standard / from extensions / custom made), but only attributes for which a description exists will be affected.
+
 Can be set on any field, to provide a long description to explain the usage of a particular field. This description can be more explicit to explain the meaning and expected usage of the field.
 
 Description comes from iTop's dictionary entry ``'Class:<CLASS_NAME>/Attribute:<ATTRIBUTE_CODE>+' => 'Some description about the attribute'``.
