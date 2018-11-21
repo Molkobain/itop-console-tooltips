@@ -11,18 +11,18 @@
 
 namespace Molkobain\iTop\Console\Tooltips\Extension;
 
-use utils;
-use MetaModel;
 use DBObjectSet;
-use WebPage;
 use iApplicationUIExtension;
+use MetaModel;
+use utils;
+use WebPage;
 
 /**
- * Class ConsoleUIExtension
+ * Class UIExtension
  *
  * @package Molkobain\iTop\Console\Tooltips\Extension
  */
-class ConsoleUIExtension implements iApplicationUIExtension
+class UIExtension implements iApplicationUIExtension
 {
     const DEFAULT_ENABLED = true;
     const DEFAULT_DECORATION_CLASS = 'mct-decoration-question';
@@ -53,16 +53,16 @@ class ConsoleUIExtension implements iApplicationUIExtension
         var oDecorationElem = $('<span></span>')
             .addClass('mct-decoration')
             .addClass('$sDecorationClass');
+            
+        // Attach to label
+        oDecorationElem.appendTo($(this));
         
         // Create tooltip
-        oDecorationElem.qtip( { content: $(this).attr('title'), show: 'mouseover', hide: 'mouseout', style: { name: 'dark', tip: 'bottomCenter' }, position: { corner: { target: 'topCenter', tooltip: 'bottomCenter' }, adjust: { y: -15}} } );
+        var sContent = $('<div />').text($(this).attr('title')).html();
+        oDecorationElem.qtip( { content: sContent, show: 'mouseover', hide: 'mouseout', style: { name: 'dark', tip: 'bottomMiddle' }, position: { corner: { target: 'topCenter', tooltip: 'bottomMiddle' }, adjust: { y: -15}} } );
         
         // Remove native title
         $(this).attr('title', '');
-								
-        
-        // Attach to label
-        oDecorationElem.appendTo($(this));
     });
 EOF
         );

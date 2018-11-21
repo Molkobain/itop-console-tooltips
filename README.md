@@ -20,7 +20,7 @@ Compatible with iTop 2.3+
 ### Installation
 * Unzip the extension
 * Copy the ``dist/molkobain-console-tooltip`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
-* Run iTop setup & select extension *Console: Tooltips on object's properties*
+* Run iTop setup & select extension *Attributes description tooltip*
 
 *Your folders should look like this*
 

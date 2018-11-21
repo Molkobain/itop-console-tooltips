@@ -22,7 +22,7 @@ SetupWebPage::AddModule(
 	'visible' => true,
 	// Components
 	'datamodel' => array(
-	    'console/consoleuiextension.class.inc.php',
+	    'console/uiextension.class.inc.php',
 	),
 	'webservice' => array(
 	//'webservices.itop-portal-base.php',
