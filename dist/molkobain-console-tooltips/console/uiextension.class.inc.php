@@ -59,7 +59,7 @@ class UIExtension implements iApplicationUIExtension
         
         // Create tooltip
         var sContent = $('<div />').text($(this).attr('title')).html();
-        oDecorationElem.qtip( { content: sContent, show: 'mouseover', hide: 'mouseout', style: { name: 'dark', tip: 'bottomMiddle' }, position: { corner: { target: 'topCenter', tooltip: 'bottomMiddle' }, adjust: { y: -15}} } );
+        oDecorationElem.qtip( { content: sContent, show: 'mouseover', hide: 'mouseout', style: { name: 'dark', tip: 'bottomMiddle' }, position: { corner: { target: 'topMiddle', tooltip: 'bottomMiddle' }, adjust: { y: -15}} } );
         
         // Remove native title
         $(this).attr('title', '');

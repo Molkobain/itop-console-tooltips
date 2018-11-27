@@ -11,7 +11,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'molkobain-console-tooltips/1.0.1', array(
+	'molkobain-console-tooltips/1.0.2', array(
 	// Identification
 	'label' => 'Attributes description tooltip',
 		'category' => 'ui',
