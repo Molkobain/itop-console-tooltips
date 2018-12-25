@@ -21,6 +21,11 @@ As part of the standard datamodel, only few fields have such description documen
 ### Compatibility
 Compatible with iTop 2.3+
 
+### Dependencies
+* Module `molkobain-handy-framework/1.0.0`
+
+*Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
+
 ### Installation
 * Unzip the extension
 * Copy the ``dist/molkobain-console-tooltip`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
