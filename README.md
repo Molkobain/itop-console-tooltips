@@ -15,8 +15,8 @@ As part of the standard datamodel, only few fields have such description documen
 
 *Note: By default iTop has not much descriptions, if you want to add some, you have to add dictionary entries.*
 
-![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-object-01.PNG)
-![Description tooltip](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-object-02.PNG)
+![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-object-01.PNG)
+![Description tooltip](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-object-02.PNG)
 
 ### Compatibility
 Compatible with iTop 2.3+
@@ -33,7 +33,7 @@ Compatible with iTop 2.3+
 
 *Your folders should look like this*
 
-![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/master/docs/mct-install.PNG)
+![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-install.PNG)
 
 ### Configuration
 #### Parameters
