@@ -1,8 +1,12 @@
 👋 Available on [iTop Hub](https://store.itophub.io/en_US/products/molkobain-console-tooltips) & [Molkobain I/O!](https://www.molkobain.com/product/console-tooltips/)
 
 # iTop extension: molkobain-console-tooltips
+* [Description](#description)
+* [Compatibility](#compatibility)
+* [Installation](#installation)
+* [Configuration](#configuration)
 
-### Description
+## Description
 Display a tooltip on object's attributes (console only). A ? is added next to the attribute's label to indicate that a description is available for an attribute.
 
 Works with all objects (standard / from extensions / custom made), but only attributes for which a description exists will be affected.
@@ -18,15 +22,15 @@ As part of the standard datamodel, only few fields have such description documen
 ![Description decoration](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-object-01.PNG)
 ![Description tooltip](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-object-02.PNG)
 
-### Compatibility
+## Compatibility
 Compatible with iTop 2.3+
 
-### Dependencies
+## Dependencies
 * Module `molkobain-handy-framework/1.0.0`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
-### Installation
+## Installation
 * Unzip the extension
 * Copy the ``dist/molkobain-console-tooltip`` folder under ``<PATH_TO_ITOP>/extensions`` folder of your iTop
 * Run iTop setup & select extension *Attributes description tooltip*
@@ -35,14 +39,14 @@ Compatible with iTop 2.3+
 
 ![Extensions folder](https://raw.githubusercontent.com/Molkobain/itop-console-tooltips/develop/docs/mct-install.PNG)
 
-### Configuration
-#### Parameters
+## Configuration
+### Parameters
 The extension has 2 configuration parameters:
   * decoration_class: Change tooltip icon by setting any *Font Awesome 5* icon classes (see [here](https://fontawesome.com/icons?d=gallery&m=free)  for examples). Default is ``fas fa-question``.
   * enabled: Enable or disable extension. Possible values are true|false, default is true.
 
-### Licensing
+## Licensing
 This extension is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-### Third party libs
+## Third party libs
 This extension embeds the Font Awesome 5.0.6 library. For more information visit its [website](https://fontawesome.com).
