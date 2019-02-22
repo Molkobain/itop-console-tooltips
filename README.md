@@ -3,6 +3,7 @@
 # iTop extension: molkobain-console-tooltips
 * [Description](#description)
 * [Compatibility](#compatibility)
+* [Downloads](#downloads)
 * [Installation](#installation)
 * [Configuration](#configuration)
 
@@ -29,6 +30,11 @@ Compatible with iTop 2.3+
 * Module `molkobain-handy-framework/1.0.0`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
+
+## Downloads
+Stable releases can be found either on the [releases page](https://github.com/Molkobain/itop-console-tooltips/releases), [iTop Hub](https://store.itophub.io/en_US/products/molkobain-console-tooltips) or on [Molkobain I/O](https://www.molkobain.com/product/console-tooltips/).
+
+Downloading it directly from the *Clone or download* will get you the version under development which might be unstable.
 
 ## Installation
 * Unzip the extension
