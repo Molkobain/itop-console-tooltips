@@ -52,7 +52,7 @@ The extension has 2 configuration parameters:
   * enabled: Enable or disable extension. Possible values are true|false, default is true.
 
 ## Licensing
-This extension is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+This extension is under [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License).
 
 ## Third party libs
 This extension embeds the Font Awesome 5.0.6 library. For more information visit its [website](https://fontawesome.com).
