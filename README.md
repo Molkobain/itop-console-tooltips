@@ -33,8 +33,8 @@ As part of the standard datamodel, only few fields have such description documen
 Compatible with iTop 2.3+
 
 ## Dependencies
-* Module `molkobain-handy-framework/1.0.0`
-* Module `molkobain-newsroom-provider/1.0.0`
+* Module `molkobain-handy-framework/1.3.0`
+* Module `molkobain-newsroom-provider/1.0.1`
 
 *Note: All dependencies are included in the `dist/` folder, so all you need to do is follow the installation section below.*
 
