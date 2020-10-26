@@ -45,7 +45,7 @@ class UIExtension implements iApplicationUIExtension
 
         // Add decoration to labels
         $oPage->add_ready_script(
-<<<EOF
+<<<JS
     $('.ui-tabs-panel .label > span[title!=""]').each(function(){
         // Create decoration
         var oDecorationElem = $('<span></span>')
@@ -56,13 +56,13 @@ class UIExtension implements iApplicationUIExtension
         oDecorationElem.appendTo($(this));
         
         // Create tooltip
-        var sContent = $('<div />').text($(this).attr('title')).text().replace(/\\n/gi, '<br />');
+        var sContent = $('<div />').text($(this).attr('title')).text().replace(/(\\r\\n|\\n\\r|\\r|\\n)/g, '<br/>');
         oDecorationElem.qtip( { content: sContent, show: 'mouseover', hide: 'mouseout', style: { name: 'molkobain-dark', tip: 'bottomMiddle' }, position: { corner: { target: 'topMiddle', tooltip: 'bottomMiddle' }, adjust: { y: -15}} } );
         
         // Remove native title
         $(this).attr('title', '');
     });
-EOF
+JS
         );
 
         return;
