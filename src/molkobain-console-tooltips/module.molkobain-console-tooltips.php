@@ -18,6 +18,7 @@ SetupWebPage::AddModule(
 	'dependencies' => array(
 		'molkobain-handy-framework/1.7.0',
 		'molkobain-newsroom-provider/1.0.1',
+		'molkobain-fontawesome5-pack/1.3.0',
 	),
 	'mandatory' => false,
 	'visible' => true,
