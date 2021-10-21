@@ -16,7 +16,7 @@ SetupWebPage::AddModule(
 		'category' => 'ui',
 	// Setup
 	'dependencies' => array(
-		'molkobain-handy-framework/1.2.4',
+		'molkobain-handy-framework/1.7.0',
 		'molkobain-newsroom-provider/1.0.1',
 	),
 	'mandatory' => false,
