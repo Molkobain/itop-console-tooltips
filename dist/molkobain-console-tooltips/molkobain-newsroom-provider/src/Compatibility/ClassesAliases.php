@@ -22,8 +22,9 @@ class ConfigHelper extends \Molkobain\iTop\Extension\NewsroomProvider\Helper\Con
 namespace Molkobain\iTop\Extension\NewsroomProvider\Console\Extension;
 
 // Protection, only for iTop 2.4-2.7.
-// Since 3.0 the stylesheet is fixed and this API deprecated
-if (version_compare(ITOP_DESIGN_LATEST_VERSION, '3.0', '<'))
+// - Since 3.0 the stylesheet is fixed and this API deprecated
+// - We can't use ITOP_DESIGN_LATEST_VERSION as it is not loaded yet
+if (version_compare(ITOP_VERSION, '3.0.0', '<'))
 {
 	class PageUIExtension extends \Molkobain\iTop\Extension\NewsroomProvider\Hook\Console\PageUIExtension
 	{
